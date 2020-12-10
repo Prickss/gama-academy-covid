@@ -1,0 +1,175 @@
+#cabecalho{
+    background-color:#a0c1d1ff;
+    align-content: center;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+/*steel-teal: #5a7d7cff;
+--lavender-web: #dadff7ff;
+--gunmetal: #232c33ff;
+--dark-sky-blue: #a0c1d1ff; +
+--lavender-gray: #b5b2c2ff;*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+#navbar {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dadff7ff;
+    border-radius: 8px;
+    }
+
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15 px;
+    justify-content:space-around; 
+    padding: 14px 16px;
+    font-weight: bold;
+    
+}  
+
+.items{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+
+}
+
+#TituloRodape{
+    background-color: #b5b2c2ff;
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+}
+
+
+#noticias{
+    display: table-row;
+    justify-content: space-between;
+    
+}
+
+
+.NoticiasDestaque{
+    background-color: #ebe6e6; 
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.descDestaque{
+    background-color: #ebe6e6; 
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 8px;
+    
+ 
+    
+}
+
+
+.button {
+    background-color: #a74caf; 
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    float: left;
+
+    
+  }
+  
+.imgDestaque{
+    height: 250px;
+    width: 400px;
+    align-content: right;
+    margin-top: 30px;
+    border-radius: 8px;
+      
+}
+
+figcaption{
+    text-align: center;
+    font-size: 10px;   
+}
+
+#form{
+    background-color: #ebe6e6; 
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 8px;
+    
+}
+
+
+.sociais{
+    margin-left: 40%;
+    
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    width: 35px;
+    height: 30px;
+}
+
+#a{
+    list-style-type: circle;
+   
+}
+
+li.c{ 
+    display: list-item; 
+    font-weight: unset;
+    padding: 0 10px 0 20px;
+}
+
+.saibamais{
+    margin-left: 50px;
+}
